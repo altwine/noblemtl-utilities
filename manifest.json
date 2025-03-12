@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "NobleMTL Utilities",
+    "description": "A useful tool for NobleMTL.",
+    "version": "1.0.0.0",
+    "icons": {
+        "16": "./assets/icon16.png",
+        "32": "./assets/icon32.png",
+        "48": "./assets/icon48.png",
+        "128": "./assets/icon128.png"
+    },
+    "content_scripts": [{
+        "matches": [ "https://*.noblemtl.com/*" ],
+        "js": [ "./script.js" ],
+        "css": [ "./style.css" ]
+    }]
+}

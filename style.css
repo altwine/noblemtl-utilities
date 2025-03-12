@@ -1,0 +1,27 @@
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1) !important;
+    -webkit-touch-callout: default !important;
+    -webkit-user-select: text !important;
+    -khtml-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    cursor: text !important;
+}
+
+.rt > .bookmark {
+    margin-bottom: 10px !important;
+}
+
+.bigcontent.nobigcv {
+    min-height: 435px !important;
+}
+
+@media only screen and (max-width: 695px) {
+    .bigcontent {
+        padding-bottom: 180px !important;
+    }
+}
